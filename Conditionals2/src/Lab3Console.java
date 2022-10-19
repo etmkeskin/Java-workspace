@@ -5,24 +5,24 @@ public class Lab3Console {
 		Scanner scan = new Scanner(System.in); 
 		
 		//test getCalories()
-//		System.out.println("Enter your gender (1 for male and 2 for female): ");
-//		int gender = scan.nextInt();
-//		System.out.println("Enter your age: ");
-//		int age = scan.nextInt();
-//		System.out.println("Enter your weight in kg: ");
-//		double weight = scan.nextDouble();
-//		System.out.println("Enter yout height in cm: ");
-//		double height = scan.nextDouble();
-//		System.out.println("Are you and athlete(true/false)?: ");
-//		boolean isAthlete = scan.nextBoolean();
-//		double totalCalories = Lab3.getCalories(gender, age, weight, height, isAthlete);
-//		System.out.println(totalCalories);
+		System.out.println("Enter your gender (1 for male and 2 for female): ");
+		int gender = scan.nextInt();
+		System.out.println("Enter your age: ");
+		int age = scan.nextInt();
+		System.out.println("Enter your weight in kg: ");
+		double weight = scan.nextDouble();
+		System.out.println("Enter yout height in cm: ");
+		double height = scan.nextDouble();
+		System.out.println("Are you and athlete(true/false)?: ");
+		boolean isAthlete = scan.nextBoolean();
+		double totalCalories = Lab3.getCalories(gender, age, weight, height, isAthlete);
+		System.out.println(totalCalories);
 		
 		//test computeTax()
-//		System.out.println("Enter your salary to compute income tax: ");
-//		double salary = scan.nextDouble();
-//		double incomeTax = Lab3.computeTax(salary);
-//		System.out.println(incomeTax);
+		System.out.println("Enter your salary to compute income tax: ");
+		double salary = scan.nextDouble();
+		double incomeTax = Lab3.computeTax(salary);
+		System.out.println(incomeTax);
 		
 		//test validDate()
 		System.out.println("Enter the day: ");
