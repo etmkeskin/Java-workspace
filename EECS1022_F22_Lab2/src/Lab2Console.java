@@ -29,6 +29,8 @@ public class Lab2Console {
 		
 		//test computePayment()
 		//write code similar to the previous methods testing code to test this method
+		
+		scan.close();
 	
 	}
 }
