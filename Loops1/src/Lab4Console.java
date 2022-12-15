@@ -33,10 +33,12 @@ public class Lab4Console {
 		
 		
 		//test printFactors()
-		System.out.println("Enter an integer: ");
-		int num1 = scan.nextInt();
-		String factorOfNum = Lab4.printFactors(num1);
-		System.out.println(factorOfNum);
+//		System.out.println("Enter an integer: ");
+//		int num1 = scan.nextInt();
+//		String factorOfNum = Lab4.printFactors(num1);
+//		System.out.println(factorOfNum);
+		
+		
 		
 		
 		
