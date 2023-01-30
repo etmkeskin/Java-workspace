@@ -22,28 +22,46 @@ class Student{
 
 
 public class test {
+	
+    public static int mystery(int n) {
+        // if (n < 0) {
+        //     n = n * 3;
+        //     //return n;
+        // } 
+        // else {
+        //     n = n + 3;
+        // }
+        //n = n * 3;
+        int si = n % 2;
+//        if (n % 2 == 1) {
+//            n = n + n % 10;
+//        }
+        return si;
+    }
 
 	public static void main(String[] args) {
-		Student p1 = new Student("Sam");
-		Student p2 = new Student("Tam");
-		//Student[] Students = new Student[2];
-		Student[] Students = {p1, p2};
-		p1 = Students[1];
-		Students[0] = p2;
-		p2.setName("Jam");
-		System.out.println(p1.getName());
-		System.out.println(Students[Students.length - 1].getName().equals("Tam"));
+		System.out.println(mystery(-170));
+//		Student p1 = new Student("Sam");
+//		Student p2 = new Student("Tam");
+//		//Student[] Students = new Student[2];
+//		Student[] Students = {p1, p2};
+//		p1 = Students[1];
+//		Students[0] = p2;
+//		p2.setName("Jam");
+//		System.out.println(p1.getName());
+//		System.out.println(Students[Students.length - 1].getName().equals("Tam"));
+//		
+//		boolean[][] x = new boolean[3][];
+//		x[0] = new boolean[1]; 
+//		x[1] = new boolean[2];
+//		x[2] = new boolean[3];
+//		System.out.println("x[2][2] is " + x[2][2]);
+//		ArrayList<String> list = new ArrayList<String>();
+//		int len = list.size();
+//		list.add("test");
+//		int len1 = list.size();
+//		System.out.println(list.get(0) + "\t" + len + "\t" + len1);
 		
-		boolean[][] x = new boolean[3][];
-		x[0] = new boolean[1]; 
-		x[1] = new boolean[2];
-		x[2] = new boolean[3];
-		System.out.println("x[2][2] is " + x[2][2]);
-		ArrayList<String> list = new ArrayList<String>();
-		int len = list.size();
-		list.add("test");
-		int len1 = list.size();
-		System.out.println(list.get(0) + "\t" + len + "\t" + len1);
 
 	}
 
