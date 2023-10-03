@@ -44,6 +44,10 @@ public class RecursionExamples {
 			return fib(n - 1) + fib(n - 2);
 		}
 	}
+
+	public static int multiplyEvens(int n){
+		
+	}
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
