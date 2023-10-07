@@ -46,25 +46,35 @@ public class RecursionExamples {
 	}
 
 	public static int multiplyEvens(int n){
-		
+		if (n <= 0) {
+	        return 1; // Base case: the product of 0 even numbers is 1
+	    }
+
+	    int evenNumber = 2 * n;
+	    
+	    // Multiply the current even number by the product of the previous even numbers (n - 1)
+	    return evenNumber * multiplyEvens(n - 1);
 	}
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("-----Palindrome-----");
-		System.out.println("\nEnter a string: ");
-	    String input = scan.nextLine();   
-	    System.out.println(isPol(input));
+//		System.out.println("-----Palindrome-----");
+//		System.out.println("\nEnter a string: ");
+//	    String input = scan.nextLine();   
+//	    System.out.println(isPol(input));
+//	    
+//	    System.out.println("\n-----Find Binary-----");
+//	    System.out.println(findBinary(233, ""));
+//	    
+//	    System.out.println("\n-----Recursive Sum-----");
+//	    System.out.println(recursiveSum(5));
+//	    
+//	    System.out.println("\n-----Fibonacci-----");
+//	    System.out.println(fib(3));
 	    
-	    System.out.println("\n-----Find Binary-----");
-	    System.out.println(findBinary(233, ""));
-	    
-	    System.out.println("\n-----Recursive Sum-----");
-	    System.out.println(recursiveSum(5));
-	    
-	    System.out.println("\n-----Fibonacci-----");
-	    System.out.println(fib(3));
+	    System.out.println("\n-----Multiply Evens-----");
+	    System.out.println(multiplyEvens(3));
 	    
 	    
 	    scan.close();
