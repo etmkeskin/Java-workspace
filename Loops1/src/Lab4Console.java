@@ -5,10 +5,10 @@ public class Lab4Console {
 		Scanner scan = new Scanner(System.in); 
 		
 		//test isPerfect()
-//		System.out.println("Enter a positive integer: ");
-//		int num = scan.nextInt();
-//		boolean isPerfect = Lab4.isPerfect(num);
-//		System.out.println(isPerfect);
+		System.out.println("Enter a positive integer: ");
+		int num = scan.nextInt();
+		boolean isPerfect = Lab4.isPerfect(num);
+		System.out.println(isPerfect);
 		
 				
 		//test getVowels()
