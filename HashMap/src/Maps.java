@@ -5,6 +5,7 @@ public class Maps {
 	public static void main(String[] args) {
 		
 		//there is no order in hashmap.
+		//key value pairs are declared as class not primitive types.
 		HashMap<String, Integer> empIds = new HashMap<>();
 		
 		//put
