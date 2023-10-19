@@ -30,16 +30,16 @@ public class Main {
 		
 		
 		//obj1 - obj2
-//		Worksheet5_1 obj1 = new Worksheet5_1(questions);
-//		Worksheet5_1 obj2 = new Worksheet5_1(obj1);
-//		System.out.println("Same Worksheet objects? " + (obj1 == obj2));
-//		System.out.println("Same instance variable? " + (obj1.getList() == obj2.getList()));
-//		System.out.println("Same instance variable's component? " + (obj1.getQuestion(0) == obj2.getQuestion(0)));
-//		
-//		obj1.setQuestion(0, newQuestion);
-//		System.out.println("Same instance variable's component? " + (obj1.getQuestion(0) == obj2.getQuestion(0)));
-//		obj1.Nullify();
-//		System.out.println("Both are null? " + (obj1.getList() == obj2.getList()));
+		Worksheet5_1 obj1 = new Worksheet5_1(questions);
+		Worksheet5_1 obj2 = new Worksheet5_1(obj1);
+		System.out.println("Same Worksheet objects? " + (obj1 == obj2));
+		System.out.println("Same instance variable? " + (obj1.getList() == obj2.getList()));
+		System.out.println("Same instance variable's component? " + (obj1.getQuestion(0) == obj2.getQuestion(0)));
+		
+		obj1.setQuestion(0, newQuestion);
+		System.out.println("Same instance variable's component? " + (obj1.getQuestion(0) == obj2.getQuestion(0)));
+		obj1.Nullify();
+		System.out.println("Both are null? " + (obj1.getList() == obj2.getList()));
 		
 		
 		//obj3 - obj4
@@ -56,16 +56,16 @@ public class Main {
 		
 		
 		//obj5 - obj6
-		Worksheet5_3 obj5 = new Worksheet5_3(questions);
-		Worksheet5_3 obj6 = new Worksheet5_3(obj5);
-		System.out.println("Same Worksheet objects? " + (obj5 == obj6));
-		System.out.println("Same instance variable? " + (obj5.getList() == obj6.getList()));
-		System.out.println("Same instance variable's component? " + (obj5.getQuestion(0) == obj6.getQuestion(0)));
-			
-		obj5.setQuestion(0, newQuestion);
-		System.out.println("Same instance variable's component? " + (obj5.getQuestion(0) == obj6.getQuestion(0)));	
-		obj5.Nullify();
-		System.out.println("Both are null? " + (obj5.getList() == obj6.getList()));
+//		Worksheet5_3 obj5 = new Worksheet5_3(questions);
+//		Worksheet5_3 obj6 = new Worksheet5_3(obj5);
+//		System.out.println("Same Worksheet objects? " + (obj5 == obj6));
+//		System.out.println("Same instance variable? " + (obj5.getList() == obj6.getList()));
+//		System.out.println("Same instance variable's component? " + (obj5.getQuestion(0) == obj6.getQuestion(0)));
+//			
+//		obj5.setQuestion(0, newQuestion);
+//		System.out.println("Same instance variable's component? " + (obj5.getQuestion(0) == obj6.getQuestion(0)));	
+//		obj5.Nullify();
+//		System.out.println("Both are null? " + (obj5.getList() == obj6.getList()));
 		
 		
 		
