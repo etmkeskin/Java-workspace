@@ -56,6 +56,16 @@ public class RecursionExamples {
 	    return evenNumber * multiplyEvens(n - 1);
 	}
 	
+	public static void move(int top, char from, char middle, char to) {
+		if(top == 1) {
+			System.out.println("Disk 1 from " + from + " to " + to);
+		}
+		else {
+			move(top - 1, from, to, middle);
+			System.out.println("Disk " + top + " from " + from + " to " + to);
+			move(top - 1, middle, from, to);
+		}
+	}
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -74,8 +84,11 @@ public class RecursionExamples {
 //	    System.out.println("\n-----Fibonacci-----");
 //	    System.out.println(fib(3));
 	    
-	    System.out.println("\n-----Multiply Evens-----");
-	    System.out.println(multiplyEvens(3));
+//	    System.out.println("\n-----Multiply Evens-----");
+//	    System.out.println(multiplyEvens(3));
+		
+	    System.out.println("\n-----Tower Of Hanoi-----");		
+		move(3, 'A', 'B', 'C');
 	    
 	    
 	    scan.close();
