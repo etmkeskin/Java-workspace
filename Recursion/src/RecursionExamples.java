@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RecursionExamples {
 	
-	
+	 
 	public static boolean isPol(String input){
 		if(input.length() == 0 || input.length() == 1){
 			return true;
@@ -70,22 +70,22 @@ public class RecursionExamples {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-//		System.out.println("-----Palindrome-----");
-//		System.out.println("\nEnter a string: ");
-//	    String input = scan.nextLine();   
-//	    System.out.println(isPol(input));
-//	    
-//	    System.out.println("\n-----Find Binary-----");
-//	    System.out.println(findBinary(233, ""));
-//	    
-//	    System.out.println("\n-----Recursive Sum-----");
-//	    System.out.println(recursiveSum(5));
-//	    
-//	    System.out.println("\n-----Fibonacci-----");
-//	    System.out.println(fib(3));
+		System.out.println("-----Palindrome-----");
+		System.out.println("\nEnter a string: ");
+	    String input = scan.nextLine();   
+	    System.out.println(isPol(input));
 	    
-//	    System.out.println("\n-----Multiply Evens-----");
-//	    System.out.println(multiplyEvens(3));
+	    System.out.println("\n-----Find Binary-----");
+	    System.out.println(findBinary(233, ""));
+	    
+	    System.out.println("\n-----Recursive Sum-----");
+	    System.out.println(recursiveSum(5));
+	    
+	    System.out.println("\n-----Fibonacci-----");
+	    System.out.println(fib(3));
+	    
+	    System.out.println("\n-----Multiply Evens-----");
+	    System.out.println(multiplyEvens(3));
 		
 	    System.out.println("\n-----Tower Of Hanoi-----");		
 		move(3, 'A', 'B', 'C');
