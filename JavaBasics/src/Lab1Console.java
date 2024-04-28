@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Lab1Console {
@@ -80,13 +81,35 @@ public class Lab1Console {
 //		
 //		scan.close();
 
-		int arr[] = {1,2,3,4,5};
-		int count = 0;
-		for(int i = 0 ; i<5; i++ ){
-			if(arr[i]%2==0)
-				arr[i] *= 2;
-			System.out.print(arr[i]);      
-		}
+//		int arr[] = {1,2,3,4,5};
+//		int count = 0;
+//		for(int i = 0 ; i<5; i++ ){
+//			if(arr[i]%2==0)
+//				arr[i] *= 2;
+//			System.out.print(arr[i]);      
+//		}
+		
+//		int[] array= {1, 2, 3, 4};
+//      int[] arrayCopy= array;
+//      ArrayList<Integer> arrayList= new ArrayList<Integer>();
+//      arrayList.add(1);
+//      ArrayList<Integer> arrayListCopy= arrayList;
+//      System.out.println(arrayListCopy);
+//        
+//      for(int i = 0; i < array.length; i++) {
+//    	  System.out.println(arrayCopy[i]);
+//      }
+		
+		String name = "Jack";
+		String nameClone= name;
+		System.out.println(name + " " + nameClone);
+		name = "Sara";
+		System.out.println(name + " " + nameClone);
+		System.out.println(name.concat(" Smith"));
+		System.out.println(name + " " + nameClone);
+	
+        
+        
 	}
 
 }
